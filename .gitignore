@@ -24,3 +24,4 @@ build
 fusesoc.conf
 .tox
 .test_durations
+fusesoc_libraries/*

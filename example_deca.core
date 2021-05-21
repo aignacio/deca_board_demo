@@ -1,5 +1,5 @@
 CAPI=2:
-name: ::example_deca:v1.0.0
+name: demo:examples:deca:1.0.0
 description: Demo Deca Board
 
 filesets:
@@ -22,9 +22,8 @@ targets:
     default_tool : quartus
     description : DECA Development kit by Terasic
     filesets : [rtl, deca]
-    parameters : [clk_freq_hz=50000000]
+    toplevel: top
     tools:
       quartus:
         family : Max 10
         device : 10M50DAF484C6GES
-    toplevel: top
